@@ -1,4 +1,8 @@
-def hello(name):
-    name="***"+name+"***"
-    print("hello "+name)
-hello("zz")
+def add(q,w,e):
+    return q+w+e
+
+print(add(add(100,200,300),1,2))
+
+
+#hello('jack')
+#hello("zhangshixuan")
