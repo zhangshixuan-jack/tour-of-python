@@ -9,4 +9,16 @@ def draw_triangle(n):
     for i in range(n):
         print((i+1) * "*")
 
-draw_triangle(100)
+#draw_triangle(100)
+
+##请打印一个类似下面的n行的三角形:
+##     *
+##    *** 
+##   *****
+##  *******
+def draw_triangle2(x):
+    for i in range(x):
+      print((2 * (i+1) - 1)*"*")
+
+draw_triangle2(6)
+  
