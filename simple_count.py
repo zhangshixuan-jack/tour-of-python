@@ -4,4 +4,4 @@ for i in range(0,100000):
   if (i + 1) % 53 ==0:
     t = t + 1
     print((i + 1))
-print(t)     
+print(t) 
